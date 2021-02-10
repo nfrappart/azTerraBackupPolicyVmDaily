@@ -10,8 +10,5 @@ module "Policy-VmBackup_8Days" {
   RetentionList = "8"
   VaultRg = module.RSV-VmBackup-Fr.RgName
   VaultName = module.RSV-VmBackup-Fr.VaultName
-  EnvironmentTag = var.Env
-  EnvironmentUsageTag = "Prod VM Backup"
-  ProvisioningDateTag = timestamp()
  }
 ```

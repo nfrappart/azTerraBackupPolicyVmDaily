@@ -10,7 +10,7 @@ variable "EnvironmentTag" {
   default = "Sandbox"
 }
 
-variable "EnvironmentUsageTag" {
+variable "UsageTag" {
   type    = string
   default = "Poc usage only"
 }
@@ -18,11 +18,6 @@ variable "EnvironmentUsageTag" {
 variable "OwnerTag" {
   type    = string
   default = "Nate"
-}
-
-variable "ProvisioningDateTag" {
-  type    = string
-  default = "Today :)"
 }
 
 variable "ProvisioningModeTag" {
