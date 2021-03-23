@@ -36,3 +36,8 @@ variable "VaultRg" {
 variable "Retention" {
   type    = string
 }
+
+variable "BackupTime" {
+  type = string
+  default = "20:00"
+}

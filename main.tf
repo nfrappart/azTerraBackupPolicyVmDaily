@@ -10,7 +10,7 @@ resource "azurerm_backup_policy_vm" "Terra_Policy" {
 
   backup {
     frequency = "Daily"
-    time      = "20:00"
+    time      = var.BackupTime
   }
 
   retention_daily {
